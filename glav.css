@@ -1,0 +1,159 @@
+html {
+    background: black;
+   
+}
+
+
+
+body {
+    background: #e3d0ca;
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 2em 2em 4em;
+    }
+
+
+table,th,td {
+    width: 100%;
+  border-collapse: collapse;
+  border-spacing: 3px;
+  border-color: black;
+    border-style: solid;
+  
+}
+
+.trek {
+    width: 100px
+}
+
+.submition {
+    width: 100px;
+}
+
+
+form {
+    text-align: center;
+}
+
+
+.text_in_reg {
+    text-align: center;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+nav {
+  position: relative;
+  width: 100%
+  margin: 0 auto;
+  background: #333;
+  text-align: center;
+}
+
+
+.menu-area li {
+  display: inline-block;
+}
+
+.menu-area a {
+  color: #fff;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  padding: 0 25px;
+  font-size: 14px;
+  line-height: 25px;
+}
+.menu-area a:hover {
+  background: tomato;
+  color: #fff;
+}
+
+
+
+
+
+.amanbek {
+ max-width:1500px;
+ margin:0 auto;
+ padding:0 100px;
+}
+
+.imgpage {
+    text-align: center;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+h2 {
+    margin-top: 1.3em;
+}
+
+a {
+    color: #0083e8;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+samp {
+    display: none;
+}
+
+img {
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    background: transparent;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: block;
+    margin: 1.3em auto;
+    max-width: 95%;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    right: 
+    width: 100%;
+    padding-left: 10px;
+    font-size: 10px;
+}
+
+.footer_table{
+    text-align: center;
+    border-width: thin;
+}
+
+.foot_list{
+    list-style-type: none;
+    text-align: left
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px grey, 0 0 40px black, 0 0 50px black, 0 0 60px black, 0 0 70px black;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red, 0 0 80px red;
+  }
+}
